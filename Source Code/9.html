@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+        #head{
+            padding-left: 470px;
+            padding-bottom: 100px;
+            padding-top: 20px;
+            font-weight: bolder;
+            font-size: 50px;
+        }
+        #s{ color:red;}
+        #usr{
+            
+            padding-left: 200px;
+        }
+        #pass{
+            
+            padding-left: 250px;
+        }
+        #radio{
+            padding-top: 30px;
+            margin-left: 200px;
+            
+        }
+        #mail{
+            padding-top: 30px;
+            margin-left: 200px;
+        }
+        #btn{
+            margin-left: 500px;
+            margin-top: 50px;
+            width:200px;
+            height: 50px;
+            text-align: center;
+            font-weight: bold;
+            border-radius: 50px;
+            size: 50px;
+            border-color:red;
+            color:red;
+            background-color: transparent;
+            cursor: pointer;
+            
+        }
+        #btn:hover{
+          background-color: red;
+          transition: 0.4s;
+          color:white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="head"><span id="s">Validate</span>Form</h1>
+    <label id="usr">Username</label>
+    <input type="text" name="" id="">
+    <label id="pass">Password</label>
+    <input type="password" name="" id=""> <br>
+    <br>
+    <br>
+    <label id="radio">Are you Huzaifa</label>
+    <input type="radio" name="" id=""> <br>
+    <br>
+    <br>
+    <label id="mail" for="">Email</label>
+    <input type="email" name="" id="">
+    <br>
+    <br>
+    <button onclick="one()" id="btn">Submits</button>
+    
+
+    <script>
+        function one(){
+            alert("Login credential has been send to Your Email:")
+        }
+    </script>
+</body>
+
+</html>

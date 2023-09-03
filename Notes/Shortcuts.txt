@@ -1,0 +1,6 @@
+./   --> To select current Folder
+../  --> To go back one Folder
+         Enter name of Folder to go forward
+
+p>lorem(Total Words You Need)  --> For writing words in website by default
+#   --> Represents ID
